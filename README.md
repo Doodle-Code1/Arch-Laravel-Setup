@@ -115,3 +115,9 @@ If desired, you can generate a quick test user to login with:
      npm run dev
      ```
      *Note:* we use `npm run dev` for hot reloading during development. However, if you want a static build then `npm run build` works just as well.
+## Done
+Visit the provided URL in your PHP terminal:  
+```bash
+http://127.0.0.1:8000
+```
+
