@@ -135,4 +135,27 @@ You may find the following extensions useful:
 2. PHP Intelephense
 3. Laravel Extra Intellisense
 4. Laravel Blade Snippets
+## Add .blade.php as an HTML type file  
+You will be working with .blade.php files, so it maybe useful to enable automatic HTML completion in VSCode for this file type.  
+1. Open VSCode and `ctrl + ,` to open your settings
+2. In the search bar search for `Files: Associations`
+3. Click the `Add Item` button
+4. For the item field, enter: `*.blade.php`
+5. For the value field, enter: `html`  
+
+Your blade.php files should now behave as expected.
+
+### Alternative Method
+Alternatively, once inside of your settings look to the top right corner and open your `settings.json` file.  
+
+<img width="168" height="52" alt="image" src="https://github.com/user-attachments/assets/92868c9c-0bc1-401c-92f8-0f3df5757ec7" />  
+
+Add the following to your file:  
+
+```bash
+    "files.associations": {
+        "*.blade.php": "html"
+    }
+```
+
 
