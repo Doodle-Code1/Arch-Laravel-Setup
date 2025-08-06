@@ -55,7 +55,7 @@ sudo pacman -Syu php php-sqlite composer npm nodejs unzip
      ```
 2. Hot load the frontend with:  
    ```
-   npm run dev`
+   npm run dev
    ```
 4. Serve the backend with:  
      ```
