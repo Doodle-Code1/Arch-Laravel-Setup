@@ -51,7 +51,7 @@ sudo pacman -Syu php php-sqlite composer npm nodejs unzip
 1. Serve the project with:  
      `php artisan serve`
    
-      By default, this will run the at:
+      By default, this will run at:
    
      ```bash
      http://127.0.0.1:8000
