@@ -48,14 +48,26 @@ sudo pacman -Syu php php-sqlite composer npm nodejs unzip
 3. Run migrations:
      `php artisan migrate`
 ## Start the App
-1. Serve the project with:  
-     `php artisan serve`
+1. Open a terminal and run:
+     ```
+     composer install
+     npm install
+     ```
+2. Hot load the frontend with:  
+   ```
+   npm run dev`
+   ```
+4. Serve the backend with:  
+     ```
+     php artisan serve
+     ```
    
       By default, this will run at:
    
      ```
      http://127.0.0.1:8000
      ```
+     
 ## Install Laravel Breeze
 1. Add `laravel/breeze` to your `composer.json`'s `require-dev` section:
      ```
