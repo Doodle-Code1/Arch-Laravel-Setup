@@ -128,3 +128,11 @@ Visit the provided URL given in your `PHP` terminal after you ran `php artisan s
 http://127.0.0.1:8000
 ```
 
+# Extras
+## Extensions
+You may find the following extensions useful:  
+1. Laravel Artisan
+2. PHP Intelephense
+3. Laravel Extra Intellisense
+4. Laravel Blade Snippets
+
