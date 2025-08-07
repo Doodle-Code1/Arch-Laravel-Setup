@@ -14,11 +14,13 @@ sudo pacman -Syu php php-sqlite composer npm nodejs unzip
 1. Open your PHP config file with:  
     - `sudo nano /etc/php/php.ini`
 2. Press `ctrl + w` and search for:  
-    - `pdo_sqlite`
-    -  `sqlite3`
+    - `pdo_sqlite`  
+    -  `sqlite3`  
+    -  `intl`  
 3. Uncomment both lines by removing the `;`:  
     - `extension=pdo_sqlite`  
-    - `extension=sqlite3`
+    - `extension=sqlite3`  
+    - `extension=intl`  
 4. Save and exit:
     - `ctrl + o` then `Enter` to save
     - `ctrl + x` to exit
