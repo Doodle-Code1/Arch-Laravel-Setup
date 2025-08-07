@@ -147,8 +147,9 @@ http://127.0.0.1:8000
 You may find the following extensions useful:  
 1. Laravel Artisan
 2. PHP Intelephense
-3. Laravel Extra Intellisense
-4. Laravel Blade Snippets
+3. PHP Namespace Resolver
+4. Laravel Extra Intellisense
+5. Laravel Blade Snippets
 ## Add .blade.php as an HTML type file  
 You will be working with .blade.php files, so it maybe useful to enable automatic HTML completion in VSCode for this file type.  
 1. Open VSCode and `ctrl + ,` to open your settings
